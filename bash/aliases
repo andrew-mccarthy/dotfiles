@@ -1,0 +1,38 @@
+alias reload="source ~/.bashrc"
+alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload'
+alias hi='echo hello'
+alias tu='top -o cpu'
+alias tm='top -o vsize'
+
+alias ls='ls -altr -G'
+alias l="ls -lh"
+alias s="cd .."
+alias a="ls -la"
+alias ..='cd ..'
+alias cdd='cd -' 	# goto last dir cd'ed from
+
+alias h='history'
+alias c='clear'
+alias cl='clear; l'
+alias cls='clear; ls'
+
+alias e='exit'
+
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+#Ruby
+alias irb='irb --readline -r irb/completion'
+alias r='rake'
+
+#Rails
+alias rmig='rake db:migrate && rake db:test:clone'
+
+# Git
+alias gst='git status'
+# alias gbrt='~/bin/gbrt'
+
+#Common destinations
+alias cdc='cd ~/Projects'
+alias wai='cd ~/Projects/waikoo'
+
+
