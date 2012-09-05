@@ -1,5 +1,5 @@
 alias reload="source ~/.bashrc"
-alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload'
+alias ea='subl -w ~/bin/dotfiles/bash/aliases && reload'
 alias hi='echo hello'
 alias tu='top -o cpu'
 alias tm='top -o vsize'
@@ -22,17 +22,14 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 #Ruby
 alias irb='irb --readline -r irb/completion'
-alias r='rake'
 
 #Rails
-alias rmig='rake db:migrate && rake db:test:clone'
+#alias rmig='rake db:migrate && rake db:test:clone'
+alias bmig='bundle && rake db:migrate'
 
 # Git
 alias gst='git status'
-# alias gbrt='~/bin/gbrt'
+alias gbrt='~/bin/gbrt'
 
 #Common destinations
-alias cdc='cd ~/Projects'
-alias wai='cd ~/Projects/waikoo'
-
-
+alias cdc='cd /Users/cristi/Dropbox/DigitalDossiers/git/DigitalDossiers'
