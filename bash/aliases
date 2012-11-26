@@ -9,7 +9,7 @@ alias l="ls -lh"
 alias s="cd .."
 alias a="ls -la"
 alias ..='cd ..'
-alias cdd='cd -' 	# goto last dir cd'ed from
+alias cdd='cd -'   # goto last dir cd'ed from
 
 alias h='history'
 alias c='clear'
@@ -25,11 +25,13 @@ alias irb='irb --readline -r irb/completion'
 
 #Rails
 #alias rmig='rake db:migrate && rake db:test:clone'
-alias bmig='bundle && rake db:migrate'
+alias giddyup='mysql.server start && bundle && rake db:migrate && rails s'
+alias goodmorning='mysql.server start && bundle && rake db:migrate && rails s'
 
 # Git
 alias gst='git status'
 alias gbrt='~/bin/gbrt'
+alias gmp='git checkout master && git pull'
 
 #Common destinations
 alias cdc='cd /Users/cristi/Dropbox/DigitalDossiers/git/DigitalDossiers'
