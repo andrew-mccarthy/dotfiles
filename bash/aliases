@@ -35,3 +35,4 @@ alias gmp='git checkout master && git pull'
 
 #Common destinations
 alias cdc='cd /Users/cristi/Dropbox/DigitalDossiers/git/DigitalDossiers'
+alias cdojotest='cd /Users/cristi/Dropbox/DigitalDossiers/git/dojo_test'
